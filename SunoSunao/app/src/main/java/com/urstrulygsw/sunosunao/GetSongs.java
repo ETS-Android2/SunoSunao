@@ -58,7 +58,7 @@ public class GetSongs {
                         "abc"
                 );
                 Log.e("Song Data:", cursor.getString(1) + " ");
-
+                if(song.getAlbumString().toLowerCase().equals("call")) continue;
                 songArrayList.add(song);
             }
             cursor.close();
