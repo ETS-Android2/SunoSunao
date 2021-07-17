@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_item"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/image_song"
+            android:src="@drawable/music"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Song name"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/image_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_song_name"
+            />
+        <ImageView
+            android:id="@+id/image_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+           android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/text_album"
+            android:text="Album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#c1c1c1"
+            android:layout_below="@id/text_song_name"
+            android:layout_toRightOf="@id/image_song"
+            />
+
+    </RelativeLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:layout_marginLeft="80dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@color/secondarytext">-->
+
+<!--    </LinearLayout>-->
+
+</androidx.cardview.widget.CardView>

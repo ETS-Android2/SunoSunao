@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#055B51</color>
+    <color name="primaryThemeColor">#aa328826</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorActionPlayer">#504c4c</color>
+    <color name="violet">#081e41</color>
+    <color name="light_violet">#081e41</color>
+    <color name="primarytext">#212121</color>
+    <color name="secondarytext">#757575</color>
+    <color name="background">#F3F3F3</color>
+    <color name="stoke">#BDBDBD</color>
+    <color name="hint">#ECECEC</color>
+    <color name="cream">#0f2e61</color>
+
+</resources>

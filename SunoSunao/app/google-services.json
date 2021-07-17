@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "344051836223",
+    "project_id": "sunosunao-56d82",
+    "storage_bucket": "sunosunao-56d82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344051836223:android:661a48d984fea0e4b01f8a",
+        "android_client_info": {
+          "package_name": "com.urstrulygsw.sunosunao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344051836223-1ie8oapjmbbqnc373u784p1024fh0ak6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAij6jIPwewsRPjJ5PvyTg7-qGzf0e6TKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344051836223-1ie8oapjmbbqnc373u784p1024fh0ak6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
