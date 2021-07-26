@@ -12,7 +12,7 @@
 
 # How to Use
 - First give permission to the app for accessing phone storage
-  <img src="Screenshots/permission1.png" alr="gas" height="40" width="20">
+  <img src="Screenshots/permission1.png" alr="gas" height="400" width="200">
 - Then Click on any of the song to play it
   - You can play songs of song/ album/ cloud tab.
   - You Share the song of your storage through this app (By clicking on menu and then share)
