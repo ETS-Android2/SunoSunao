@@ -12,6 +12,10 @@
     - Addition feature of the app is that you can upload songs on cloud storage on a single click, uploading process takes hardly 20 seconds provided internet connection is available. 
     - Uploaded songs are visible at cloud section of the app, you can play songs without even downloading it.
     - You have been provided functionality of deleting uploaded songs of cloud.
+ - Tools and Technologies
+ 	- Android (Java)
+ 	- Firebase Cloud Storage
+ 	- Firebase Google Authentication
  
 
 # How to Install
