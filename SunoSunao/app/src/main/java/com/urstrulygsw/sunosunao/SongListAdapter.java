@@ -24,7 +24,6 @@ public class SongListAdapter  extends RecyclerView.Adapter<SongListAdapter.SongL
         this.songArrayList = songArrayList;
         this.fragment=fragment;
         songListAdapter=this;
-
     }
 
 
@@ -73,6 +72,9 @@ public class SongListAdapter  extends RecyclerView.Adapter<SongListAdapter.SongL
             Bitmap bm=GetSongs.getImage(song.getPathString());
             if(bm!=null){
                 songListHolder.image_song.setImageBitmap(bm);
+            }
+            else{
+                songListHolder.image_song.setImageResource(R.drawable.music);
             }
         }
 

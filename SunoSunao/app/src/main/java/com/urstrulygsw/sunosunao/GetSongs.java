@@ -10,13 +10,11 @@ import android.provider.MediaStore;
 import android.util.Log;
 
 import java.io.ByteArrayInputStream;
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 
 public class GetSongs {
-
 
     //get all the audio files from device using MediaStore( android provider)
     static public ArrayList<Song> getSongs(Context context, int sort_preference_value){

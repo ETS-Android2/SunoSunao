@@ -2,8 +2,6 @@ package com.urstrulygsw.sunosunao;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.AudioAttributes;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -14,9 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -40,9 +35,8 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.firebase.storage.ListResult;
 import com.google.firebase.storage.StorageMetadata;
 import com.google.firebase.storage.StorageReference;
-
-import java.io.IOException;
 import java.util.ArrayList;
+
 
 public class FirebaseFragment extends Fragment {
 
@@ -57,6 +51,7 @@ public class FirebaseFragment extends Fragment {
     Context context;
     SongListAdapter songListAdapter;
     RecyclerView.LayoutManager layoutManager;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -210,11 +205,23 @@ public class FirebaseFragment extends Fragment {
                                             song.setTitleString(songName);
                                             song.setAlbumString(albumName);
                                             song.setArtistString(artistName);
-                                            songList.add(song);
+                                            if(!hasSong(songList,song)){
+                                                songList.add(song);
+                                            }
                                             if (mAuth.getCurrentUser() != null) {
+
                                                 songListAdapter.updateSongListOnSearch(songList);
                                             }
 
+                                        }
+
+                                        private boolean hasSong(ArrayList<Song> songList, Song song) {
+                                            for(Song each:songList){
+                                                if(each.getTitleString().equals(song.getTitleString()) && each.getAlbumString().equals(song.getAlbumString())){
+                                                    return true;
+                                                }
+                                            }
+                                            return false;
                                         }
                                     })
                                     .addOnFailureListener(new OnFailureListener() {
