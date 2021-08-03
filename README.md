@@ -4,6 +4,15 @@
 - [About](#about)
 - [How to Install ](#how-to-install)
 - [How to Use](#how-to-use)
+# About
+ - This is an android music player application where you can listen songs from your mobile storage.
+ - Some of the features of this app are:
+    - Searching, Sharing, Sorting (by date, size and name), look out songs by album. 
+    - While playing a song you can play, pause, shuffle, loop, next, previous, 10 seconds forward and replay.
+    - Addition feature of the app is that you can upload songs on cloud storage on a single click, uploading process takes hardly 20 seconds provided internet connection is available. 
+    - Uploaded songs are visible at cloud section of the app, you can play songs without even downloading it.
+    - You have been provided functionality of deleting uploaded songs of cloud.
+ 
 
 # How to Install
 - Click on apk file
